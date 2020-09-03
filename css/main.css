@@ -1,0 +1,229 @@
+@charset "utf-8";
+/* CSS Document */
+
+body,div,img,ol,ul{
+	margin: 0;
+	padding: 0;
+}
+body{
+	font-family: "microsoft yahei";
+	font-size: 14px;
+	color: #666666;
+}
+ol,ul{
+	list-style-type: none;
+}
+a{
+	/* color: #666666; */
+}
+a:hover{
+	color: #d63f20;
+	text-decoration: none;
+}
+.top-logo{
+	background-image: url(../images/bg02.png);
+}
+.logo-pic{
+	height: 90px; padding: 5px 0;
+}
+.logo-pic-mobile{
+	display: none;
+}
+
+.navbar-bg a{
+	text-align: center;
+}
+/* 修改原来bootstrap样式 */
+.navbar-default .navbar-nav>li>a{
+	color: #fff;
+	line-height: 40px;
+	text-align: center;
+	font-size: 16px;
+	padding: 0;
+	
+}
+.navbar{
+	margin-bottom: 0;
+	border: none;
+}
+.navbar-default .navbar-nav>li>a:hover,
+.navbar-default .navbar-nav>li>a:focus,
+.navbar-default .navbar-nav>.open>a,
+.navbar-default .navbar-nav>.open>a:hover,
+.navbar-default .navbar-nav>.open>a:focus,
+.nav-active {
+	color: #FFFF00;
+	background-color: #d63f20;
+}
+
+
+
+
+.dropdown-menu>li>a {
+	padding: 8px 10px;
+	}
+/* 可以跟上面合并 */
+.dropdown-menu>li>a:hover {
+	color: #FFFF00;
+	background-color: #d63f20;
+	}
+.dropdown-menu .divider{
+	margin: 1px 0;
+}
+/* 修改原来bootstrap样式 */
+.navbar-toggle{
+	margin-top: 12px;
+	}
+/* end */
+.navbar-bg{
+	background-color: #90000a;
+}
+.top-nav-justify{
+	width: 100%;
+	/* margin: 0; */
+}
+.nav>li{
+	width: 14.28571%;
+	}
+@media (max-width: 768px){
+	.nav>li{
+		width: 100%;
+		}
+	.top-logo{
+		display: none;
+	}
+	.logo-pic-mobile{
+		display: inline-block;
+		height: 60px;
+	}
+}
+
+/* 导航栏颜色 #9c1d1d
+   导航链接背景色 #d63f20
+ 
+ 
+ */
+
+.index-row1{
+	background-image: url(../images/009.jpg);
+	padding: 10px;
+}
+.pd10{
+	padding: 10px;
+}
+.panel{
+	border-radius: 0;
+	border-width: 0;
+	min-height: 300px;
+	margin-bottom: 0;
+}
+.panel-default .panel-heading{
+	background-color: #FFFFFF!important;
+	border-color: #9C9C9C;
+	border-width: 2px;
+}
+.panel-title{
+	border-left: 5px solid #e1472f;
+	padding-left: 10px;
+	line-height: 30px;
+	color: #000000;
+	font-weight: 600;
+}
+/* .panel-body{
+	padding: 10px;
+}
+.panel-body li{
+	line-height: 25px;
+} */
+.list-group-item span{
+	padding-right: 10px;
+	color: #D58512; font-weight: bold;
+}
+.list-group-item span[class]{
+	padding-right: 0;
+	padding-left: 10px;
+}
+
+.service-index{
+	background-image: url(../images/bg02.png);
+}
+
+
+
+
+.news-bufen{
+	background: url(../images/bg02.png);
+}
+.new-title{
+	text-align: center;
+	margin-bottom: 30px;
+}
+.new-title h2 i{
+	display: inline-block;
+    width: 65px;
+    height: 1px;
+    background: #072c4c;
+    margin-bottom: 6px;
+}
+.news-tab li{
+	display: inline-block;
+	list-style: none;
+	padding: 5px 10px;
+    font-size: 16px;
+    border: 1px solid;
+    margin: 10px;
+    cursor: pointer;    
+}
+.jiange{
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+.news-container{
+    position: relative;
+    overflow: hidden;
+}
+.news-container ul{
+	transition: all 0.3s;
+	top: 0;
+}
+.news-container li{
+	display: none;
+}
+.news-container .one-li{
+	display: block;
+}
+.current{
+	background: #EA833F;
+    color: #fff;
+}
+.news-tab-container li img{
+	width: 100%;
+}
+.news-tab-container li >div{
+	padding-bottom: 15px;
+}
+
+
+
+
+
+.footer{
+	background-color: #333333;
+}
+.footer .row{
+	text-align: center;
+	font-size: 14px;
+	color: #fff;
+}
+.footer .row div{
+	padding: 15px 0;
+}
+.footer-bottom{
+	padding-top: 0 !important;
+}
+
+
+/* SinglePage */
+.singlepage-img{
+	width: 100%;
+}
